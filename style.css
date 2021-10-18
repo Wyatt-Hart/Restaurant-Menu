@@ -1,0 +1,87 @@
+nav{
+    width: 100%;
+}
+.nav-menu {
+    background-color: rgb(180, 153, 112);
+    text-align: center;
+    padding: 7px;
+    border-style: solid;
+    border-width: 5px;
+}
+.nav-menu-item-current, .nav-menu-item  {
+    display: inline;
+    padding: 4px;
+    padding-inline: 20px;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(206, 149, 63);
+}
+.nav-menu-item-current {
+    background-color: rgb(243, 194, 119);
+}
+.name-and-slogan, .about-info, .contact-info {
+    text-align: center;
+    list-style-type: none;
+}
+.about-info {
+    padding: 5%;
+}
+.service {
+    display: inline-block;
+    padding: 4px;
+    padding-inline: 10px;
+    text-align: center;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.test{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner-image, .about-banner-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about-banner-image, .contact-banner-image {
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about-banner-image {
+    background-image: url("./assets/images/about-image.jpg");
+}
+.contact-banner-image{
+    background-image: url("./assets/images/contact-image.jpg");
+}
+.drink-image {
+    margin-left: 45%;
+    margin-right: 45%;
+    width: 200px;
+    height: 200px;
+    border: black;
+    border-style: solid;
+    border-radius: 200px;
+}
+.menu-item {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: black;
+}
+body{
+    background-color: rgb(114, 69, 36);
+    font-family:monospace, bold;
+    font-size: large;
+}
+main {
+    border-style: solid;
+    border-width: 5px;
+    background-color: navajowhite;
+}
